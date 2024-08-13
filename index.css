@@ -1,0 +1,112 @@
+.ContenedorPez{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 columnas */
+    gap: 20px; /* Espacio entre tarjetas */
+    margin-top: 200px;
+    margin-left: 100px;
+   
+    
+    
+    
+
+  }
+  .Producto{
+    box-shadow: 0 4px 8px ;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 250px;
+    
+
+  }
+  
+  img{
+    
+    width: 250px;
+    height: 250px;
+    
+    
+  }
+  p, h3, h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  h2{
+    margin-top: 100px;
+    margin-left: 30px
+  }
+  .botonAgregar{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  header {
+    border: 1px solid;
+    height: 300px;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_uWHMNuPkJ8PTG0TTv_yLZ3gqUnEL6YYFV_1QF-wuul7OOc2-Vm5Es6IMrWB_9mQiQ1hs-qPBy_bMbt6nkm4cmpAoD6loy3DE3iCWx46kPlsdAMbTTdTimPWgjsZczgybGw3Ss8qKIDM0XN30bG44uAKqvNI4pEMX4kSxV62k02YqUYlU5zEgMw7n3w/s4032/VEDA.jpg);
+    background-size: cover; /* Ajusta la imagen para cubrir el área del header */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el header */
+}
+
+nav{
+  margin-top: 100px;
+
+
+  
+}
+
+
+.ContenNav{
+  
+  
+  height: 100px;
+  
+
+}
+#Icono{
+  height: 50px;
+  width: 50px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer{
+  background-image: url(https://islachira.com/wp-content/uploads/2022/01/islachira-aereo.jpeg);
+  height: 1000px;
+  margin-top: px;
+}
+#Carrito{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+  margin-left: 100px;
+  box-shadow: 0 4px 8px ;
+  border-radius: 8px;
+  border: 1px solid ;
+  width: 250px;
+  
+  
+  
+}
